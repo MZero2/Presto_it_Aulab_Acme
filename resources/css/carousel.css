@@ -1,0 +1,30 @@
+
+/* .carousel-item img {
+    object-fit: cover;
+} */
+/* #carousel-thumbs {
+    background: rgba(255,255,255,.3);
+    bottom: 0;
+    left: 0;
+    padding: 0 50px;
+    right: 0;
+}
+#carousel-thumbs img {
+    border: 3px solid rgba(0, 0, 0, 0.252);
+    cursor: pointer;
+}
+#carousel-thumbs img:hover {
+    border-color: rgba(255,255,255,.3);
+}
+#carousel-thumbs .selected img {
+    border-color: #fff;
+} */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+}
+
+.carousel-arrow{
+    color: red !important;
+
+}

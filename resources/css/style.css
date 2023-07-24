@@ -1,0 +1,143 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.min-page{
+  min-height: 90vh;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.custom-margin-top{
+    margin-top: 10vh;
+    margin-bottom: 25vh;
+}
+
+.custom-button-color{
+    background-color: #f57875;
+}
+
+.colorRed{
+    color: #f0003c;
+}
+
+.img-preview {
+
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn-uzerz {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #c5002e;
+    border:none;    
+    color: white;
+  }
+
+  .btn-uzerz:hover {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+  }
+
+  .btn-one-user {
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+    position: relative;
+    font-weight: 400;
+  }
+  .btn-one-user span {
+    transition: all 0.3s;
+  }
+  .btn-one-user::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #c5002e;
+    border-bottom-color: #c5002e;
+    transform: scale(0.1, 1);
+    
+  }
+  .btn-one-user:hover a {
+    letter-spacing: 2px;
+    font-weight: bold;
+  
+  }
+  .btn-one-user:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1); 
+  }
+  .btn-one-user::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255,255,255,0.1);
+  }
+  .btn-one-user:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+  }
+  
+  
+  .btn-one-user:hover a {
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black;
+  }
+
+  button{
+    border: none;
+  }
+
+  button:hover {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .btn-searchPage {
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+    background-color: #c5002e;
+    border:none;    
+    color: white;
+  }
+
+  .btn-searchPage:hover {
+    color: black;
+    
+  }
